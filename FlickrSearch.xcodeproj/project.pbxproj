@@ -144,8 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				7E7A57731EECC4D0005063E4 /* FlickrPhotosViewController.swift */,
-				7EA166A71EECCD03004B5701 /* FlickrPhotoCell.swift */,
-				7EA166AB1EECDD13004B5701 /* FlickrPhotoHeaderView.swift */,
+				A020A9061FDD6524007E454B /* Views */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -157,6 +156,15 @@
 				7E7A577B1EECC7B0005063E4 /* Flickr.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A020A9061FDD6524007E454B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EA166A71EECCD03004B5701 /* FlickrPhotoCell.swift */,
+				7EA166AB1EECDD13004B5701 /* FlickrPhotoHeaderView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

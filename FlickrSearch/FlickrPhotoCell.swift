@@ -23,8 +23,13 @@ class FlickrPhotoCell: UICollectionViewCell {
     // MARK: - View Life Cycle
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         imageView.layer.borderColor = AppDelegate.themeColor.cgColor
         isSelected = false
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
     }
     
 }

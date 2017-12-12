@@ -22,7 +22,7 @@
 
 import UIKit
 
-let apiKey = "5e1952600e4368fbab48cc7209bf554a"
+let apiKey = "3df01e0bb23e5a6e96d3101521a49421"
 
 class Flickr {
     let processingQueue = OperationQueue()
